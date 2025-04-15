@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plantify - Your Plant Shop</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav-container">
+
+                <ul class="nav-links">
+                    <li><a href="#shop" [tooltip] ="this is the shop">Shop</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#fertilizer">Fertilizer</a></li>
+                    <li><a href="#guide">Guide</a></li>
+                </ul>
+
+
+                <div class="logo">
+                    <img src="images/logo.png" alt="Plantify Logo">
+                </div>
+
+                
+
+
+                <div class="nav-icons">
+                    <button class="search-btn">🔍</button>
+                    <button class="cart-btn">🛒</button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Happiness blooms from within</h1>
+                <p>Our enviroment,the world in which we live and work, is a mirror of our attributes and expectations.</p>
+                <div class="hero-buttons">
+                    <button class="shop-now">Shop now</button>
+                    <button class="explore">Explore plants →</button>
+                </div>
+                <div class="hero-dots">
+                    <span class="dot active"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                </div>
+            </div>
+
+
+
+
+            <div class="hero-images">
+                <div class="image-grid">
+                    <div class="grid-item">
+                        <img src="images/image 3.png" alt="Plant">
+                        <span class="tag">New</span>
+
+                        
+                    </div>
+
+
+                    <div class="grid-items">
+                        <img src="images/image1.png" alt="Cactus">
+                        <span class="tag">Featured</span>
+
+
+                        <div class="overlay">
+                            <h2>Anthurium Flower</h2>
+                         
+                            </div>
+
+
+
+
+                    </div>
+                     
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+
+
+
+        <section class="featured-products">
+            <div class="section-header">
+                <h2>Featured</h2>
+                <a href="#" class="view-all">view all</a>
+            </div>
+
+            <div class="product-grid" id="featured-grid">
+                <!-- Products will be inserted here by JavaScript -->
+            </div>
+        </section>
+
+
+
+
+
+        <section class="search-section">
+            <div class="search-container">
+                <button class="filter-btn">
+                    <span class="filter-icon">≡</span>
+                </button>
+                <input type="text" placeholder="Search flowers..." class="search-input">
+                <button class="search-submit">🔍</button>
+            </div>
+        </section>
+
+//
+
+
+        <section class="new-arrivals">
+            <div class="section-header">
+                <h2>Colorful New Arrivals</h2>
+                <a href="#" class="view-all">view all</a>
+            </div>
+            <div class="arrivals-grid">
+                <div class="arrival-card">
+                    <img src="images/image 14.png" >
+                    <div class="card-content">
+                        <h1>Blue Lily</h1>
+                        <p>More Information</p>
+                    </div>
+                </div>
+
+
+
+                <div class="arrival-card">
+                    <img src="images/image 15.png" alt="Purple Iris">
+                    <div class="card-content">
+                        <h1>Purple Iris</h1>
+                        <p>Elegant and graceful</p>
+                    </div>
+                </div>
+
+                <div class="arrival-card">
+                    <img src="images/image 16.png" alt="Red Dahlia">
+                    <div class="card-content">
+                        <h1>Red Dahlia</h1>
+                        <p>Bold and beautiful</p>
+                    </div>
+                </div>
+
+
+                <div class="arrival-card">
+                    <img src="images/image 17.png" alt="Red Dahlia">
+                    <div class="card-content">
+                        <h1>Red Dahlia</h1>
+                        <p>Bold and beautiful</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+
+
+
+        <section class="plant-stands">
+            <h2>Plant stands</h2>
+            <div class="stands-grid">
+                <div class="stand-card">
+                    <img src="images/image 5.png" alt="White Macrame">
+                </div>
+                <div class="stand-card">
+                    <img src="images/image 6.png" alt="Natural Macrame">
+                </div>
+                <div class="stand-card">
+                    <img src="images/image 7.png" alt="Hook Stand">
+                </div>
+            </div>
+        </section>
+
+
+
+
+        <section class="shipping-banner">
+            
+            <div class="banner-content">
+                
+                <img src="images/imageser.png" alt="shipping-banner">
+                <h1></h1>
+            
+                <div class="contact-info">
+                </div>
+            </div>
+        </section>
+    </main>
+    <div class="content">
+        
+            <section class="iframe">
+                <div class="iframes"></div>
+
+                <iframe  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5120.416704851731!2d79.05434966320078!3d21.13954721477725!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd4c16fe7f30a71%3A0x96d1eb35911d1226!2sTARS%20Technologies!5e0!3m2!1sen!2sin!4v1743331592363!5m2!1sen!2sin" ></iframe>
+
+            </div>
+
+        </div>
+
+
+    <script src="main.js"></script>
+</body>
+</html>
